@@ -1,0 +1,31 @@
+{
+  "name": "marketing-engine-skills",
+  "metadata": {
+    "description": "Marketing skills for B2B service companies: referrals, research, pricing, planning, copy, CRO, SEO, AI search, content, lead magnets."
+  },
+  "owner": {
+    "name": "Victor Shulga",
+    "url": "https://github.com/victor-shulga"
+  },
+  "plugins": [
+    {
+      "name": "marketing-engine",
+      "source": "./",
+      "description": "14 Claude Code skills for the marketing block of a GTM system for B2B service companies: referrals, customer research, competitor profiles, pricing, marketing plan, RevOps, analytics, copywriting, CRO, SEO audit, AI search visibility, content strategy, lead magnets and free tools. Curated by Victor Shulga (Fractional CRO); skills by Corey Haines, MIT.",
+      "version": "0.1.0",
+      "keywords": [
+        "marketing",
+        "referrals",
+        "pricing",
+        "copywriting",
+        "seo",
+        "cro",
+        "b2b",
+        "gtm"
+      ],
+      "author": {
+        "name": "Victor Shulga"
+      }
+    }
+  ]
+}
