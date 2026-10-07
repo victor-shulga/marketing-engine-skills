@@ -1,6 +1,6 @@
 ---
 name: marketing-plan
-description: When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product. Also use when the user mentions «marketing plan,» «growth plan,» «GTM plan,» «go-to-market plan,» «AARRR plan,» «90-day marketing plan,» «12-month marketing roadmap,» «fractional CMO plan,» or «fCMO plan.» Generates an exhaustive 13-section plan structured by AARRR (Acquisition, Activation, Retention, Referral, Revenue), customized to the client's current budget, team, and stage, mapped to future funding milestones, cross-referenced with the 139-idea marketing-ideas library and an embedded 17-section current-state audit rubric, with a full marketing operations stack showing which skills and MCP/API integrations execute each part. Outputs a Notion-paste-ready markdown document. For positioning and ICP context before planning, see product-marketing. For stage-specific deep work, see onboarding, signup, emails, referrals, pricing.
+description: When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product. Also use when the user mentions «marketing plan,» «growth plan,» «GTM plan,» «go-to-market plan,» «AARRR plan,» «90-day marketing plan,» «12-month marketing roadmap,» «fractional CMO plan,» or «fCMO plan.» Generates an exhaustive 13-section plan structured by AARRR (Acquisition, Activation, Retention, Referral, Revenue), customized to the client's current budget, team, and stage, mapped to future funding milestones, cross-referenced with the 139-idea marketing-ideas library and an embedded 17-section current-state audit rubric, with a full marketing operations stack showing which skills and MCP/API integrations execute each part. Outputs a Notion-paste-ready markdown document. For positioning and ICP context before planning, see gtm-positioning (gtm-strategy-skills). For deep work on one stage, see cro, nurture-architect, referrals, pricing.
 ---
 
 # Marketing Plan
@@ -19,7 +19,7 @@ Invoke this skill when:
 - The user explicitly asks for a "marketing plan," "growth plan," "GTM plan," "fCMO plan," "AARRR plan," or "90-day + 12-month marketing roadmap"
 - An existing scored audit (from any prior current-state assessment) needs to be sequenced into an action plan
 
-**Do not use** when the user wants a tactical execution document for a single channel (use the channel-specific skill instead — `nurture-architect`, paid ads planning (your own tool, if you have one), `seo-audit`, `cs-plan-builder` (account-management-skills), etc.), or when the user just wants marketing ideas without commitment to a plan (use the idea list in `references/idea-cross-reference.md`).
+**Do not use** when the user wants a tactical execution document for a single channel (use the skill for that one channel instead — `nurture-architect`, paid ads planning (your own tool, if you have one), `seo-audit`, `cs-plan-builder` (account-management-skills), etc.), or when the user just wants marketing ideas without commitment to a plan (use the idea list in `references/idea-cross-reference.md`).
 
 ## How this skill is invoked
 
@@ -102,7 +102,7 @@ If the user already has a separately scored audit, ingest those scores directly 
 
 1. **the idea list in `references/idea-cross-reference.md`** — 139 proven marketing tactics. Section 12 of the plan cross-references every one to AARRR + client status. Detail in `references/idea-cross-reference.md`.
 2. **`gtm-positioning` (gtm-strategy-skills)** — Sets up the foundational `.agents/product-marketing.md` context file (positioning, ICP, voice). Read this first; Section 2 (Strategic frame) builds on it.
-3. **AARRR-stage-specific skills** — `cs-plan-builder` (account-management-skills), `cro`, `nurture-architect`, `referrals`, `pricing`, etc. The "Marketing operations stack" (Section 11) maps these to AARRR stages.
+3. **Skills for each AARRR stage** — `cs-plan-builder` (account-management-skills), `cro`, `nurture-architect`, `referrals`, `pricing`, etc. The "Marketing operations stack" (Section 11) maps these to AARRR stages.
 
 The plan is **opinionated about which skills serve which stages.** Full mapping in `references/ops-stack-mapping.md`.
 
