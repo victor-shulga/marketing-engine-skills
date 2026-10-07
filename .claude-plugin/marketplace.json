@@ -11,8 +11,8 @@
     {
       "name": "marketing-engine",
       "source": "./",
-      "description": "14 Claude Code skills for the marketing block of a GTM system for B2B service companies: referrals, customer research, competitor profiles, pricing, marketing plan, RevOps, analytics, copywriting, CRO, SEO audit, AI search visibility, content strategy, lead magnets and free tools. Curated by Victor Shulga (Fractional CRO); skills by Corey Haines, MIT.",
-      "version": "0.1.0",
+      "description": "17 Claude Code skills for the marketing block of a GTM system for B2B service companies: referrals, customer research, competitor profiles, pricing, marketing plan, RevOps, analytics, copywriting, website messaging audit and rewrite, CRO, SEO audit, AI search visibility, content strategy, lead magnets, free tools, and lead nurture (program design and value assets). Curated by Victor Shulga (Fractional CRO); 14 skills by Corey Haines, MIT.",
+      "version": "0.2.0",
       "keywords": [
         "marketing",
         "referrals",
