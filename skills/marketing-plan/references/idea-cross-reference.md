@@ -1,14 +1,14 @@
 # Idea Cross-Reference — 139 Marketing Ideas Mapped to AARRR
 
-The `marketing-ideas` skill catalogs 139 proven marketing tactics. This doc is the source-of-truth mapping: every idea assigned to a primary AARRR stage, with notes for when it's typically active and what category constraints apply.
+The upstream marketing-ideas list (Corey Haines, not shipped in this pack) catalogs 139 proven marketing tactics; this doc carries every one of them, so it works on its own. This doc is the source-of-truth mapping: every idea assigned to a primary AARRR stage, with notes for when it's typically active and what category constraints apply.
 
 The plan's Section 12 ("Tactical idea bank") uses this mapping as the base, then layers client-specific filters: brand voice rules might skip some ideas; funding stage might shift Q-status; client category might rule out others.
 
 ## How to read this doc
 
 - **139 unique ideas, 144 entries.** Five ideas cross-cut multiple AARRR stages and appear under each stage they serve (#79 Early-Access Referrals, #86 Lifetime Deals, #91 In-App Upsells, #114 Moneyball Marketing, #117 Product Competitions). Each duplicate row carries a cross-cut note.
-- **"Entries" counts rows; idea IDs are unique.** Section header counts reflect rows in this doc, not unique ideas from `marketing-ideas`.
-- **Numbers correspond exactly to the `marketing-ideas` skill ordering.** If `marketing-ideas` reorders or expands, update this doc.
+- **"Entries" counts rows; idea IDs are unique.** Section header counts reflect rows in this doc, not unique ideas from the upstream list.
+- **Numbers follow the upstream list's ordering.** If you extend the list, append new numbers here.
 
 ## AARRR assignment for all 139 ideas
 
@@ -253,13 +253,12 @@ After all five AARRR tables + skip list:
 
 ## How to maintain this doc
 
-If `marketing-ideas` adds new ideas (it's a living skill — the 139 may become 145 or 160 over time):
-1. Read `skills/marketing-ideas/references/ideas-by-category.md` in the `marketingskills` repo
+When you add new ideas (the upstream list grows over time; the original lives at github.com/coreyhaines31/marketingskills under marketing-ideas):
+1. Write the new idea in one line with a number after #139
 2. Assign each new idea to a primary AARRR stage using the rules above
 3. Add to this doc's tables
 4. Update SKILL.md's idea-count reference
 
 ## Sources
 
-- `skills/marketing-ideas/SKILL.md` (in the `marketingskills` repo)
-- `skills/marketing-ideas/references/ideas-by-category.md` (in the `marketingskills` repo)
+- The marketing-ideas list in coreyhaines31/marketingskills (MIT), by Corey Haines; not shipped in this pack, fully mapped above.

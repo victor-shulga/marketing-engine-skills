@@ -40,9 +40,9 @@ The 13-section plan structure stays consistent across client types. What changes
 - Tier upgrades, seat expansion, usage-based add-ons
 
 ### Skills emphasis
-- `cold-email`, `programmatic-seo`, `competitors`, `seo-audit`, `ai-seo`
-- `ads` weighted toward LinkedIn + Google
-- `emails` for trial nurture + lifecycle
+- `cold-email-playbook` (outbound-engine-skills), `seo-audit`, `competitor-profiling`, `ai-seo`
+- paid ads planning (your own tool, if you have one) weighted toward LinkedIn + Google
+- `nurture-architect` for trial nurture + lifecycle
 - `pricing` for tier optimization
 
 ### Tier-1 budget priority
@@ -93,8 +93,8 @@ The 13-section plan structure stays consistent across client types. What changes
 - In-app upsells
 
 ### Skills emphasis
-- `onboarding`, `paywalls`, `emails`
-- `ads`, `ad-creative` (heavy creative iteration)
+- `cs-plan-builder` (account-management-skills), `cro`, `nurture-architect`
+- paid ads planning (your own tool, if you have one), ad creative (your own tool, if you have one) (heavy creative iteration)
 - `referrals`
 - `pricing` for annual default + tier consolidation
 
@@ -144,10 +144,10 @@ The 13-section plan structure stays consistent across client types. What changes
 
 ### Skills emphasis
 - `seo-audit` for Shopify product pages
-- `emails` for both hardware post-purchase and software lifecycle
+- `nurture-architect` for both hardware post-purchase and software lifecycle
 - `referrals` with gifting layer
 - `pricing` for blended-bundle math
-- `ads` with creative-heavy Meta presence
+- paid ads planning (your own tool, if you have one) with creative-heavy Meta presence
 
 ### Tier-1 budget priority
 - Shopify product page optimization
@@ -194,8 +194,8 @@ The 13-section plan structure stays consistent across client types. What changes
 - Lead-gen vs. transaction-fee monetization
 
 ### Skills emphasis
-- `programmatic-seo` for city pages, vertical pages
-- `cold-email` for supply-side recruitment
+- `seo-audit` for city pages, vertical pages
+- `cold-email-playbook` (outbound-engine-skills) for supply-side recruitment
 - `referrals` for both sides
 - `pricing` for take-rate decisions
 
@@ -243,10 +243,10 @@ The 13-section plan structure stays consistent across client types. What changes
 - Support / SLA upsells
 
 ### Skills emphasis
-- `programmatic-seo` for docs
-- Less emphasis on traditional `ads`
+- `seo-audit` for docs
+- Less emphasis on traditional paid ads planning (your own tool, if you have one)
 - Heavy `content-strategy` + technical content
-- `cold-email` to engineering leads at target companies
+- `cold-email-playbook` (outbound-engine-skills) to engineering leads at target companies
 
 ### Tier-1 budget priority
 - Docs + technical content production
@@ -294,8 +294,8 @@ The 13-section plan structure stays consistent across client types. What changes
 
 ### Skills emphasis
 - Light traditional marketing
-- Heavy `product-marketing`, `sales-enablement`, `pricing`
-- `cold-email` to specific researchers / practitioners
+- Heavy `06-positioning` (gtm-strategy-skills), `slide-deck-builder` (sales-engine-skills), `pricing`
+- `cold-email-playbook` (outbound-engine-skills) to specific researchers / practitioners
 - PR + investor marketing
 
 ### Tier-1 budget priority
@@ -342,8 +342,8 @@ The 13-section plan structure stays consistent across client types. What changes
 - Subscription option for repeat purchases
 
 ### Skills emphasis
-- `ads` + `ad-creative` (heavy weight)
-- `emails` for post-purchase + abandoned cart
+- paid ads planning (your own tool, if you have one) + ad creative (your own tool, if you have one) (heavy weight)
+- `nurture-architect` for post-purchase + abandoned cart
 - `referrals` with gifting
 - `pricing` for bundles + subscription option
 

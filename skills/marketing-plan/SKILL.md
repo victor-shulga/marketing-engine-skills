@@ -19,7 +19,7 @@ Invoke this skill when:
 - The user explicitly asks for a "marketing plan," "growth plan," "GTM plan," "fCMO plan," "AARRR plan," or "90-day + 12-month marketing roadmap"
 - An existing scored audit (from any prior current-state assessment) needs to be sequenced into an action plan
 
-**Do not use** when the user wants a tactical execution document for a single channel (use the channel-specific skill instead — `emails`, `ads`, `seo-audit`, `onboarding`, etc.), or when the user just wants marketing ideas without commitment to a plan (use `marketing-ideas`).
+**Do not use** when the user wants a tactical execution document for a single channel (use the channel-specific skill instead — `nurture-architect`, paid ads planning (your own tool, if you have one), `seo-audit`, `cs-plan-builder` (account-management-skills), etc.), or when the user just wants marketing ideas without commitment to a plan (use the idea list in `references/idea-cross-reference.md`).
 
 ## How this skill is invoked
 
@@ -28,7 +28,7 @@ Invoke this skill when:
 ```
 
 Examples:
-- `/marketing-plan quietude.app`
+- `/marketing-plan example.com`
 - `/marketing-plan acme-saas`
 - `/marketing-plan` (will prompt for client name)
 
@@ -75,7 +75,7 @@ Full template lives in `references/plan-template.md`. The structure:
 9. **90-day roadmap** — Weeks 1–2 (Unblock), 3–4 (Foundation), 5–8 (Velocity), 9–12 (Compound). AARRR-tagged, owner-assigned.
 10. **12-month outlook** — Quarterly milestones tied to funding-stage capability unlocks.
 11. **Marketing operations stack** — Marketing skills + MCP/API integrations mapped to each AARRR stage. Capability unlocks by funding stage.
-12. **Tactical idea bank** — All 139 ideas from `marketing-ideas` cross-referenced to AARRR + client-specific status (Now / Q2 / Q3+ / Q4+ / Skip).
+12. **Tactical idea bank** — All 139 ideas from the idea list in `references/idea-cross-reference.md` cross-referenced to AARRR + client-specific status (Now / Q2 / Q3+ / Q4+ / Skip).
 13. **Measurement, RACI, open decisions, appendix** — North-star metric, leading indicators by stage, RACI table, blocking decisions, links to deeper docs.
 
 ## The AARRR framing
@@ -100,9 +100,9 @@ If the user already has a separately scored audit, ingest those scores directly 
 
 ## Cross-references — skills this plan integrates with
 
-1. **`marketing-ideas`** — 139 proven marketing tactics. Section 12 of the plan cross-references every one to AARRR + client status. Detail in `references/idea-cross-reference.md`.
-2. **`product-marketing`** — Sets up the foundational `.agents/product-marketing.md` context file (positioning, ICP, voice). Read this first; Section 2 (Strategic frame) builds on it.
-3. **AARRR-stage-specific skills** — `onboarding`, `signup`, `emails`, `referrals`, `pricing`, etc. The "Marketing operations stack" (Section 11) maps these to AARRR stages.
+1. **the idea list in `references/idea-cross-reference.md`** — 139 proven marketing tactics. Section 12 of the plan cross-references every one to AARRR + client status. Detail in `references/idea-cross-reference.md`.
+2. **`06-positioning` (gtm-strategy-skills)** — Sets up the foundational `.agents/product-marketing.md` context file (positioning, ICP, voice). Read this first; Section 2 (Strategic frame) builds on it.
+3. **AARRR-stage-specific skills** — `cs-plan-builder` (account-management-skills), `cro`, `nurture-architect`, `referrals`, `pricing`, etc. The "Marketing operations stack" (Section 11) maps these to AARRR stages.
 
 The plan is **opinionated about which skills serve which stages.** Full mapping in `references/ops-stack-mapping.md`.
 
@@ -231,16 +231,16 @@ The full schema for `progress.md` and the resumption decision tree live in `refe
 
 ## Related skills
 
-- **`product-marketing`** — Run first. Captures positioning, ICP, voice in `.agents/product-marketing.md` so every section of the plan references the same foundation.
-- **`marketing-ideas`** — Source of the 139 tactics in Section 12.
+- **`06-positioning` (gtm-strategy-skills)** — Run first. Captures positioning, ICP, voice in `.agents/product-marketing.md` so every section of the plan references the same foundation.
+- **the idea list in `references/idea-cross-reference.md`** — Source of the 139 tactics in Section 12.
 - **`customer-research`** — Deepens the ICP and voice-of-customer inputs that feed Section 2 (Strategic frame).
-- **`onboarding`** — Deep work on Section 5 (Activation).
-- **`emails`** — Deep work on Section 6 (Retention) + onboarding emails in Section 5.
+- **`cs-plan-builder` (account-management-skills)** — Deep work on Section 5 (Activation).
+- **`nurture-architect`** — Deep work on Section 6 (Retention) + onboarding emails in Section 5.
 - **`referrals`** — Deep work on Section 7 (Referral).
 - **`pricing`** — Deep work on Section 8 (Revenue).
-- **`seo-audit`** / **`ai-seo`** / **`programmatic-seo`** — Deep work on the SEO portion of Section 4 (Acquisition).
-- **`ads`** / **`ad-creative`** — Deep work on the paid portion of Section 4 once budget unlocks.
-- **`launch`** — Deep work on launch moments inside Section 4 / Section 9.
+- **`seo-audit`** / **`ai-seo`** / **`seo-audit`** — Deep work on the SEO portion of Section 4 (Acquisition).
+- **paid ads planning (your own tool, if you have one)** / **ad creative (your own tool, if you have one)** — Deep work on the paid portion of Section 4 once budget unlocks.
+- **launch planning (your own tool, if you have one)** — Deep work on launch moments inside Section 4 / Section 9.
 
 ## Task-specific questions (used during INIT)
 

@@ -176,7 +176,5 @@ homepage: one service in depth, bottom of funnel, built to rank. Blocks:
 Method adapted by Victor Shulga for B2B service companies. The homepage canvas (audience,
 champion, situation, current way, limitations, problems, capabilities, features, benefits) and the
 idea of judging a homepage by a short list of questions a buyer must be able to answer come from
-the SaaS homepage messaging framework of Anthony Pierri and Robert Kaminski at Fletch PMM
-(https://www.fletchpmm.com/), as published in Kyle Poyar's Growth Unhinged
-(https://kylepoyar.substack.com/p/how-to-write-a-saas-homepage). The service-business adaptation,
+a published SaaS homepage messaging framework by two product-marketing consultants. The service-business adaptation,
 the proof bank, the audit rubric and the service-page mode are Victor Shulga's.

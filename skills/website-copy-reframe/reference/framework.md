@@ -2,7 +2,7 @@
 
 This file explains how the copywriting canvas works for a service business and why each step is
 there. It is an adaptation for agencies and consultancies of the SaaS homepage messaging framework
-by Anthony Pierri and Robert Kaminski (Fletch PMM); see Credits in `SKILL.md`. The wording, the
+by two product-marketing consultants; see Credits in `SKILL.md`. The wording, the
 service-business examples and the site-structure step are Victor Shulga's.
 
 ## Why service homepages go vague
@@ -46,7 +46,7 @@ Lay out candidate segments on three axes: **company type × person or department
   **vertical**.
 - Messaging tied to a situation that many company types share is **horizontal**.
 - For a high-ticket service with a long sales cycle and a modest marketing budget, a horizontal
-  message rarely gets enough reach to work. Start vertical. (Fletch suggests a budget threshold for
+  message rarely gets enough reach to work. Start vertical. (The original framework suggests a budget threshold for
   this; treat any such number as a rule of thumb, not data.)
 - A situation can be a process the buyer is running or an outcome they are chasing. Either way,
   the buyer must be spending effort on it now.

@@ -170,7 +170,7 @@ Week-by-week breakdown of the ships in the first quarter.
 Quarter-by-quarter outcome state (Q1 / Q2 / Q3 / Q4).
 
 ### Skills + tools
-- **Skills:** list relevant marketing-skills repo skills (`seo-audit`, `ai-seo`, `ads`, `social`, `competitors`, etc.)
+- **Skills:** list relevant marketing-skills repo skills (`seo-audit`, `ai-seo`, paid ads planning (your own tool, if you have one), `content-run` (content-engine-skills), `competitor-profiling`, etc.)
 - **MCPs / APIs:** list connections (Ahrefs API, GA4 MCP, Typefully MCP, Stripe MCP for LTV math, etc.)
 
 ---
@@ -191,7 +191,7 @@ Quarter-by-quarter outcome state (Q1 / Q2 / Q3 / Q4).
 - Paywall + pricing review (often Activation × Revenue)
 
 ### Skills + tools
-`onboarding`, `signup`, `paywalls`, `copywriting`, `marketing-website-design`, `ab-testing`, etc.
+`cs-plan-builder` (account-management-skills), `cro`, `copywriting`, `page-builder` (standalone repo), `cro`, etc.
 
 ---
 
@@ -211,7 +211,7 @@ Quarter-by-quarter outcome state (Q1 / Q2 / Q3 / Q4).
 - Annual plan default tests (cross-references to Revenue)
 
 ### Skills + tools
-`emails`, `churn-prevention`, `copywriting`, `paywalls`, etc.
+`nurture-architect`, `client-health-check` (account-management-skills), `copywriting`, `cro`, etc.
 
 ---
 
@@ -231,7 +231,7 @@ Quarter-by-quarter outcome state (Q1 / Q2 / Q3 / Q4).
 - Gifting flows (for consumer / hardware)
 
 ### Skills + tools
-`referrals`, `social`, `emails` (for ambassador lifecycle), `copywriting`, etc.
+`referrals`, `content-run` (content-engine-skills), `nurture-architect` (for ambassador lifecycle), `copywriting`, etc.
 
 ---
 
@@ -265,7 +265,7 @@ Required table:
 These feed the budget math in Section 10. If any of these are unknown, flag in Section 13 as top open decision.
 
 ### Skills + tools
-`pricing`, `paywalls`, `sales-enablement`, `revops`, `ab-testing`, etc.
+`pricing`, `cro`, `slide-deck-builder` (sales-engine-skills), `revops`, etc.
 
 ---
 
@@ -383,7 +383,7 @@ Pull from `references/funding-stage-unlocks.md`.
 
 ## Section 12 — Tactical idea bank
 
-**Purpose:** Cross-reference all 139 ideas from the `marketing-ideas` skill against AARRR stages, with client-specific status.
+**Purpose:** Cross-reference all 139 ideas from the idea list in `references/idea-cross-reference.md` skill against AARRR stages, with client-specific status.
 
 **Length:** Long — tables can easily total 150+ rows.
 
@@ -486,7 +486,7 @@ Ranked by impact. Each is: name + impact + what's blocked.
 - **Section 1** — A non-Quietude reader could understand the company's growth thesis from this alone.
 - **Section 2** — Brand voice rules are explicit enough that any new copywriter could follow them.
 - **Section 3** — All "in-flight" items have an owner and a blocker named.
-- **Sections 4–8** — Each move names a skill (`some-skill`) and a tool (Customer.io MCP / Stripe MCP / Ahrefs / etc.).
+- **Sections 4–8** — Each move names a skill (`<skill-name>`) and a tool (Customer.io MCP / Stripe MCP / Ahrefs / etc.).
 - **Section 9** — Every row has an owner.
 - **Section 10** — Each quarter names the funding stage explicitly.
 - **Section 11** — At least one concrete operational example proves the stack thesis.

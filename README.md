@@ -62,4 +62,4 @@ Restart your Claude Code session after install — skills load at session start.
 
 14 of the 17 skills are copies of skills from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) by Corey Haines, MIT License. Each folder keeps the original `LICENSE` and a `NOTICE.md` with the source commit and the changes made (links to the upstream tool registry turned into plain text; descriptions rewritten as plain YAML). Packaging in this repo: MIT.
 
-`website-copy-reframe`, `nurture-architect` and `nurture-value-factory` are written by Victor Shulga (MIT). Borrowed ideas are credited inside each `SKILL.md`: the copy canvas and homepage questions come from Anthony Pierri and Robert Kaminski (Fletch PMM), the awareness levels from Eugene Schwartz.
+`website-copy-reframe`, `nurture-architect` and `nurture-value-factory` are written by Victor Shulga (MIT). Borrowed ideas are credited inside each `SKILL.md`: the copy canvas and homepage questions are adapted from a published SaaS homepage messaging framework, the awareness levels from Eugene Schwartz.

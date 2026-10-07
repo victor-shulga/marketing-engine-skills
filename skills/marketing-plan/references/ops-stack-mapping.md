@@ -2,7 +2,7 @@
 
 This doc maps every marketing-skill and every relevant MCP/API integration to the AARRR stage(s) it primarily serves. It's the source for Section 11 of every plan.
 
-> **Note on scope.** Skills below live in this `marketingskills` repo. A few references point to optional tools from adjacent Claude Code marketplaces (e.g., `vercel:agent-browser`, `compound-engineering:diagram-maker`) — substitute equivalents if not installed. When a plan references a skill or tool that isn't available, fall back to the underlying tactic and call it out in Section 13's open decisions.
+> **Note on scope.** Skills below live in the GTM-system skill stack (this pack and its sibling packs; the pack is named next to each skill from another pack). A few references point to optional tools (a browser-automation CLI, a diagram maker) — substitute equivalents if not installed. When a plan references a skill or tool that isn't available, fall back to the underlying tactic and call it out in Section 13's open decisions.
 
 ## The thesis
 
@@ -22,74 +22,74 @@ The plan's Section 11 makes this thesis explicit by:
 |---|---|---|
 | `seo-audit` | Audit site for technical and on-page SEO | Quarterly site health checks |
 | `ai-seo` | Optimize content for AI search engines / LLM citation | Future-proof content strategy |
-| `programmatic-seo` | Build template-driven SEO pages at scale | Location, comparison, integration page systems |
-| `schema` | Add structured data markup | Rich snippets, eligibility for AI citation |
+| `seo-audit` | Build template-driven SEO pages at scale | Location, comparison, integration page systems |
+| `seo-audit` | Add structured data markup | Rich snippets, eligibility for AI citation |
 | `content-strategy` | Plan content topics, pillars, cadence | Setting the editorial calendar |
-| `competitors` | Build vs-pages and alternative-to-pages | Capture high-intent SERPs against competitors |
-| `ads` | Plan and structure paid campaigns | Apple Search Ads, Meta, Google, LinkedIn |
-| `ad-creative` | Generate ad variations and creative | Iterate ad creative across platforms |
-| `social` | Plan and write social media content | LinkedIn, Twitter/X, Instagram, TikTok |
-| `typefully` | Schedule/post tweets, threads, LinkedIn content | Cadence operations for founder-led channels |
-| `cold-email` | Write B2B cold outreach + sequences | Outbound for B2B SaaS / hybrid businesses |
+| `competitor-profiling` | Build vs-pages and alternative-to-pages | Capture high-intent SERPs against competitors |
+| paid ads planning (your own tool, if you have one) | Plan and structure paid campaigns | Apple Search Ads, Meta, Google, LinkedIn |
+| ad creative (your own tool, if you have one) | Generate ad variations and creative | Iterate ad creative across platforms |
+| `content-run` (content-engine-skills) | Plan and write social media content | LinkedIn, Twitter/X, Instagram, TikTok |
+| Typefully or another scheduler (tool) | Schedule/post tweets, threads, LinkedIn content | Cadence operations for founder-led channels |
+| `cold-email-playbook` (outbound-engine-skills) | Write B2B cold outreach + sequences | Outbound for B2B SaaS / hybrid businesses |
 | `analytics` | Set up tracking, GA4, conversion events | Funnel instrumentation |
 | `free-tools` | Plan engineering-as-marketing free tools | Build tools that generate links + leads |
-| `marketing-website-design` | Design marketing sites with intention | Pillar/landing page design |
-| `launch` | Plan and execute launches (Product Hunt, GA, feature launches) | GTM moments — strategy + tactical execution |
+| `page-builder` (standalone repo) | Design marketing sites with intention | Pillar/landing page design |
+| launch planning (your own tool, if you have one) | Plan and execute launches (Product Hunt, GA, feature launches) | GTM moments — strategy + tactical execution |
 
 ### Activation skills
 
 | Skill | What it does | Primary use in Activation |
 |---|---|---|
-| `onboarding` | Optimize user onboarding flows | Onboarding rebuild, activation rate tests |
-| `signup` | Optimize signup/registration | Reduce friction at top of activation |
+| `cs-plan-builder` (account-management-skills) | Optimize user onboarding flows | Onboarding rebuild, activation rate tests |
+| `cro` | Optimize signup/registration | Reduce friction at top of activation |
 | `cro` | Optimize any marketing page or form | Conversion testing across pages, forms, landing pages |
-| `paywalls` | Optimize paywalls and upgrade screens | Trial → paid conversion (also Revenue) |
-| `popups` | Optimize popups, modals, slide-ins | Lead capture + activation prompts |
+| `cro` | Optimize paywalls and upgrade screens | Trial → paid conversion (also Revenue) |
+| `cro` | Optimize popups, modals, slide-ins | Lead capture + activation prompts |
 | `copywriting` | Write marketing copy | Onboarding screens, paywall copy, CTAs |
-| `copy-editing` | Edit and improve existing copy | Voice / clarity pass before ship |
-| `copycraft` | Real-time copy variation overlay | Live copy iteration during reviews |
-| `website-copy` | Write full website copy (stage-8 from CF process) | Comprehensive site copy production |
-| `ab-testing` | Plan A/B tests | Structure for onboarding variant tests |
-| `marketing-psychology` | Apply behavioral science to copy and CRO | Persuasion principles in activation moments |
+| `copywriting` | Edit and improve existing copy | Voice / clarity pass before ship |
+| `copywriting` | Real-time copy variation overlay | Live copy iteration during reviews |
+| `website-copy-reframe` | Write full website copy (stage-8 from CF process) | Comprehensive site copy production |
+| `cro` | Plan A/B tests | Structure for onboarding variant tests |
+| `copywriting` | Apply behavioral science to copy and CRO | Persuasion principles in activation moments |
 
 ### Retention skills
 
 | Skill | What it does | Primary use in Retention |
 |---|---|---|
-| `emails` | Design email sequences | Customer.io / Mailchimp / Resend flow building |
-| `churn-prevention` | Build cancellation flows, save offers, win-back | Reduce churn, recover failed payments |
-| `copywriting` / `copy-editing` | Email copy production | Lifecycle email content |
-| `paywalls` | (cross-cuts) — upgrade prompts in retention emails | Upsell within lifecycle |
-| `ab-testing` | Test email variants | Subject line, CTA, timing tests |
+| `nurture-architect` | Design email sequences | Customer.io / Mailchimp / Resend flow building |
+| `client-health-check` (account-management-skills) | Build cancellation flows, save offers, win-back | Reduce churn, recover failed payments |
+| `copywriting` / `copywriting` | Email copy production | Lifecycle email content |
+| `cro` | (cross-cuts) — upgrade prompts in retention emails | Upsell within lifecycle |
+| `cro` | Test email variants | Subject line, CTA, timing tests |
 
 ### Referral skills
 
 | Skill | What it does | Primary use in Referral |
 |---|---|---|
 | `referrals` | Plan and launch referral / affiliate / ambassador programs | Core skill for Section 7 |
-| `social` | Create ambassador-shareable content | Talking points, post templates |
+| `content-run` (content-engine-skills) | Create ambassador-shareable content | Talking points, post templates |
 | `copywriting` | Ambassador / affiliate email copy | Recruitment, onboarding, communication |
-| `marketing-website-design` | Per-ambassador landing pages | Attribution surface |
-| `emails` | Ambassador lifecycle emails | Onboarding, monthly digest, payout notifications |
+| `page-builder` (standalone repo) | Per-ambassador landing pages | Attribution surface |
+| `nurture-architect` | Ambassador lifecycle emails | Onboarding, monthly digest, payout notifications |
 
 ### Revenue skills
 
 | Skill | What it does | Primary use in Revenue |
 |---|---|---|
 | `pricing` | Audit and optimize pricing | Plan tier structure, annual defaults, value metrics |
-| `paywalls` | Paywall optimization | Trial → paid, free → paid conversion |
-| `sales-enablement` | Build sales decks, one-pagers, demos | B2B sales support material |
+| `cro` | Paywall optimization | Trial → paid, free → paid conversion |
+| `slide-deck-builder` (sales-engine-skills) | Build sales decks, one-pagers, demos | B2B sales support material |
 | `revops` | Revenue operations, lead lifecycle | Marketing → sales handoff |
-| `ab-testing` | Pricing experiments | Test annual default, intro pricing, tier consolidation |
+| `cro` | Pricing experiments | Test annual default, intro pricing, tier consolidation |
 
 ### Cross-cutting / brand foundation skills
 
 | Skill | What it does | Primary use |
 |---|---|---|
-| `product-marketing` | Set up the `.agents/product-marketing.md` context file (positioning, ICP, voice) | Foundational — run first; every section of the plan references this |
+| `06-positioning` (gtm-strategy-skills) | Set up the `.agents/product-marketing.md` context file (positioning, ICP, voice) | Foundational — run first; every section of the plan references this |
 | `customer-research` | Conduct customer interviews + surveys | Section 2 + Section 3 (Current state) |
-| `marketing-psychology` | Apply behavioral science | Cross-cuts copy, CRO, paywalls |
-| `marketing-ideas` | The 139-idea library | Section 12 of plan (Idea bank) |
+| `copywriting` | Apply behavioral science | Cross-cuts copy, CRO, paywalls |
+| the idea list in `references/idea-cross-reference.md` | The 139-idea library | Section 12 of plan (Idea bank) |
 
 ## MCPs and APIs mapped to AARRR
 
@@ -168,7 +168,7 @@ The plan's Section 11 must include this table (or equivalent), specific to the c
 | Stage | Headcount | Tooling | Channels live |
 |---|---|---|---|
 | **Pre-seed / bootstrapped** | fCMO + founder team | All current tooling + marketing-skills library + MCP layer | Organic only (SEO, content, App Store, founder-led social, events, WOM, ambassador) |
-| **Seed close** | + first marketing hire (lifecycle/content owner) | + paid ad accounts (Apple Search Ads, Meta, LinkedIn) + `ads` skill activated | + paid acquisition pilot ($5–15K/mo — see `funding-stage-unlocks.md` for canonical tiers) |
+| **Seed close** | + first marketing hire (lifecycle/content owner) | + paid ad accounts (Apple Search Ads, Meta, LinkedIn) + paid ads planning (your own tool, if you have one) skill activated | + paid acquisition pilot ($5–15K/mo — see `funding-stage-unlocks.md` for canonical tiers) |
 | **Seed deployment** | + designer (potentially fractional) | + analytics expansion (Mixpanel / Amplitude if needed) | + paid scaling ($20–50K/mo) + first launches (PH, GA) |
 | **Series A** | + performance marketing lead + content lead | + dedicated tooling spend ($2–5K/mo software) + sponsored event budget | + paid scaling ($50–150K/mo) + international consideration + B2B vertical expansion |
 | **Series B+** | Full-stack marketing org (10+ people) | + agency partnerships + PR firm | + brand campaigns + acquisitions + sponsorships at category level |
@@ -182,8 +182,8 @@ Section 11 of the plan must include at least one concrete operational example th
 
 Examples from real engagements:
 - *"On the kickoff call, Alex drafted a working Customer.io abandoned-cart flow live, using Customer.io's Claude MCP. Validated that a non-technical founder can ship lifecycle work using the skill pattern independently."*
-- *"In two weeks, the team scaled from 0 to 14 ranking keywords using `programmatic-seo` against the Ahrefs API + GitHub MCP — no dedicated SEO hire required."*
-- *"The first email campaign generated a 24% reply rate after `cold-email` skill + GA4 MCP + Stripe MCP gave the team a verified target list of users with high LTV but no recent activity."*
+- *"In two weeks, the team scaled from 0 to 14 ranking keywords using `seo-audit` against the Ahrefs API + GitHub MCP — no dedicated SEO hire required."*
+- *"The first email campaign generated a 24% reply rate after `cold-email-playbook` (outbound-engine-skills) skill + GA4 MCP + Stripe MCP gave the team a verified target list of users with high LTV but no recent activity."*
 
 If the client has no such moment in their history yet, frame the example as the *first move* — "Here's the demonstration the team will run in week one to validate the stack:"
 

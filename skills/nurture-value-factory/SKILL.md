@@ -255,5 +255,4 @@ nurture-architect      →   nurture-value-factory      →   build skills
 
 Built by Victor Shulga for B2B service companies; the eight-step lead-magnet method, the
 three-type test and the asset-family taxonomy are his. The quality bar in the library (§0) is
-adapted from Tim Keen's *The 2025 Agency Growth Bible* (a free guide he distributes on
-LinkedIn), restated here in our own words.
+adapted from a free agency-growth guide, restated here in our own words.

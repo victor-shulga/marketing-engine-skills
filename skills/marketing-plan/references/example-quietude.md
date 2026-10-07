@@ -250,7 +250,7 @@ Held until seed funding lands. Initial test budget: $5–10K/mo split across App
 
 ### Skills + tools
 
-- **Skills:** `seo-audit`, `ai-seo`, `programmatic-seo`, `schema`, `content-strategy`, `competitors`, `launch`, `ads`, `ad-creative`, `social`, `typefully`, `analytics`, `copywriting`, `marketing-website-design`, `free-tools`
+- **Skills:** `seo-audit`, `ai-seo`, `content-strategy`, `competitor-profiling`, launch planning (your own tool, if you have one), paid ads planning (your own tool, if you have one), ad creative (your own tool, if you have one), `content-run` (content-engine-skills), Typefully or another scheduler (tool), `analytics`, `copywriting`, `page-builder` (standalone repo), `free-tools`
 - **MCPs / APIs:** Ahrefs API, DataForSEO API, Typefully MCP (LinkedIn scheduling), GA4 MCP (when wired), GitHub MCP (`quietude-promo` repo work), Notion (knowledge directory), Stripe MCP (LTV / paid-CAC math), `agent-browser` (LinkedIn drafting + testing), `defuddle` (research)
 
 ---
@@ -306,7 +306,7 @@ What's the current trial structure? Length, paywall trigger, intro pricing? When
 
 ### Skills + tools
 
-- **Skills:** `onboarding`, `signup`, `cro`, `cro`, `paywalls`, `popups`, `copywriting`, `copy-editing`, `copycraft`, `marketing-website-design`, `ab-testing`, `marketing-psychology`
+- **Skills:** `cs-plan-builder` (account-management-skills), `cro`, `copywriting`, `page-builder` (standalone repo), `cro`, `copywriting`
 - **MCPs / APIs:** App Store Connect (manual + `dev-browser` for screenshot automation), GitHub MCP (`quietude-app` app repo for onboarding code), Figma / Pencil MCP (for onboarding screen design), Customer.io MCP (for any in-app/email coordination), GA4 MCP (activation events)
 
 ---
@@ -365,7 +365,7 @@ Industry pattern: defaulting to annual reduces churn anxiety and improves LTV. T
 
 ### Skills + tools
 
-- **Skills:** `emails`, `churn-prevention`, `copywriting`, `copy-editing`, `paywalls`, `ab-testing`
+- **Skills:** `nurture-architect`, `client-health-check` (account-management-skills), `copywriting`, `cro`
 - **MCPs / APIs:** **Customer.io MCP** (validated on kickoff — non-technical team can ship flows), Shopify (eye mask buyers as event source), Stripe MCP (subscription state, churn cohort pulls), GA4 MCP (session events, retention curves)
 
 ---
@@ -412,7 +412,7 @@ Hardware referral is rare and powerful. *"Send a friend an Quietude eye mask. Th
 
 ### Skills + tools
 
-- **Skills:** `referrals`, `social`, `copywriting`, `marketing-website-design` (per-ambassador landing pages)
+- **Skills:** `referrals`, `content-run` (content-engine-skills), `copywriting`, `page-builder` (standalone repo) (per-ambassador landing pages)
 - **MCPs / APIs:** Dub.co (attribution — already in stack), Stripe MCP (commission accounting + payouts), GitHub MCP (landing page deployment in `quietude-promo` or new `quietude-ambassadors` repo), Customer.io MCP (ambassador lifecycle: onboarding, monthly performance digest, payout notification)
 
 ---
@@ -475,7 +475,7 @@ Per seed deck Y10–15 value pool: $100–160M/yr. Not immediate revenue. Belong
 
 ### Skills + tools
 
-- **Skills:** `pricing`, `paywalls`, `sales-enablement`, `revops`, `ab-testing`, `copywriting`
+- **Skills:** `pricing`, `cro`, `slide-deck-builder` (sales-engine-skills), `revops`, `copywriting`
 - **MCPs / APIs:** Stripe MCP (pricing tests, subscription analytics, churn cohort, blended CAC math), Customer.io MCP (paywall-related lifecycle), Shopify (eye mask transactions), GA4 MCP (revenue events), Notion (commercial knowledge directory)
 
 ---
@@ -627,12 +627,12 @@ The fCMO's job is to:
 
 | Stage | Primary skills | Supporting skills |
 |---|---|---|
-| **Acquisition** | `seo-audit`, `ai-seo`, `programmatic-seo`, `schema`, `content-strategy`, `competitors`, `ads`, `ad-creative`, `social`, `typefully` | `launch`, `free-tools`, `analytics`, `cold-email`, `copywriting`, `marketing-website-design` |
-| **Activation** | `onboarding`, `signup`, `paywalls`, `cro`, `copywriting`, `copy-editing`, `copycraft` | `marketing-website-design`, `ab-testing`, `marketing-psychology`, `cro`, `popups` |
-| **Retention** | `emails`, `churn-prevention` | `copywriting`, `copy-editing`, `ab-testing`, `paywalls` |
-| **Referral** | `referrals`, `social` | `copywriting`, `marketing-website-design`, `emails` |
-| **Revenue** | `pricing`, `paywalls`, `sales-enablement`, `revops` | `ab-testing`, `copywriting` |
-| **Cross-cutting** (brand, intelligence) | `product-marketing`, `customer-research`, `marketing-psychology` | `marketing-ideas`, `diagram-maker` |
+| **Acquisition** | `seo-audit`, `ai-seo`, `content-strategy`, `competitor-profiling`, paid ads planning (your own tool, if you have one), ad creative (your own tool, if you have one), `content-run` (content-engine-skills), Typefully or another scheduler (tool) | launch planning (your own tool, if you have one), `free-tools`, `analytics`, `cold-email-playbook` (outbound-engine-skills), `copywriting`, `page-builder` (standalone repo) |
+| **Activation** | `cs-plan-builder` (account-management-skills), `cro`, `copywriting` | `page-builder` (standalone repo), `cro`, `copywriting` |
+| **Retention** | `nurture-architect`, `client-health-check` (account-management-skills) | `copywriting`, `cro` |
+| **Referral** | `referrals`, `content-run` (content-engine-skills) | `copywriting`, `page-builder` (standalone repo), `nurture-architect` |
+| **Revenue** | `pricing`, `cro`, `slide-deck-builder` (sales-engine-skills), `revops` | `cro`, `copywriting` |
+| **Cross-cutting** (brand, intelligence) | `06-positioning` (gtm-strategy-skills), `customer-research`, `copywriting` | the idea list in `references/idea-cross-reference.md`, `diagram-maker` |
 
 ### MCPs / APIs mapped to stages
 
@@ -666,7 +666,7 @@ The marketing skill library scales these stages. Every channel added doesn't req
 
 ## 12. Tactical idea bank — 139-idea cross-reference
 
-The `marketing-ideas` skill catalogs 139 proven marketing tactics. Sections 4–8 (AARRR) prescribe what we're *doing*. This section maps the full universe of what's *possible* — every idea cross-referenced to the AARRR stage it primarily serves, with Quietude applicability and timing.
+The the idea list in `references/idea-cross-reference.md` skill catalogs 139 proven marketing tactics. Sections 4–8 (AARRR) prescribe what we're *doing*. This section maps the full universe of what's *possible* — every idea cross-referenced to the AARRR stage it primarily serves, with Quietude applicability and timing.
 
 This is the exhaustive menu. The plan above is the curated path. When we move to Q2 / Q3 / Series A and unlock new capacity, this is the inventory we pull from.
 

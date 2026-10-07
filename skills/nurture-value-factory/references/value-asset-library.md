@@ -54,7 +54,7 @@ whether that expertise is **documented**; a **best-practice guide or SOP** from 
 
 ### Quality bar
 
-Adapted from Tim Keen's *The 2025 Agency Growth Bible* (see Credits in SKILL.md):
+Adapted from a free agency-growth guide (see Credits in SKILL.md):
 - Aim for something a buyer would plausibly pay for (his benchmark is "worth $100+").
 - Share the **process you actually use** in the business, not theory.
 - **Show the work**: annotated screenshots or visuals for each step.
