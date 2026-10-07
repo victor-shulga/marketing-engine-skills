@@ -101,7 +101,7 @@ If the user already has a separately scored audit, ingest those scores directly 
 ## Cross-references — skills this plan integrates with
 
 1. **the idea list in `references/idea-cross-reference.md`** — 139 proven marketing tactics. Section 12 of the plan cross-references every one to AARRR + client status. Detail in `references/idea-cross-reference.md`.
-2. **`06-positioning` (gtm-strategy-skills)** — Sets up the foundational `.agents/product-marketing.md` context file (positioning, ICP, voice). Read this first; Section 2 (Strategic frame) builds on it.
+2. **`gtm-positioning` (gtm-strategy-skills)** — Sets up the foundational `.agents/product-marketing.md` context file (positioning, ICP, voice). Read this first; Section 2 (Strategic frame) builds on it.
 3. **AARRR-stage-specific skills** — `cs-plan-builder` (account-management-skills), `cro`, `nurture-architect`, `referrals`, `pricing`, etc. The "Marketing operations stack" (Section 11) maps these to AARRR stages.
 
 The plan is **opinionated about which skills serve which stages.** Full mapping in `references/ops-stack-mapping.md`.
@@ -231,7 +231,7 @@ The full schema for `progress.md` and the resumption decision tree live in `refe
 
 ## Related skills
 
-- **`06-positioning` (gtm-strategy-skills)** — Run first. Captures positioning, ICP, voice in `.agents/product-marketing.md` so every section of the plan references the same foundation.
+- **`gtm-positioning` (gtm-strategy-skills)** — Run first. Captures positioning, ICP, voice in `.agents/product-marketing.md` so every section of the plan references the same foundation.
 - **the idea list in `references/idea-cross-reference.md`** — Source of the 139 tactics in Section 12.
 - **`customer-research`** — Deepens the ICP and voice-of-customer inputs that feed Section 2 (Strategic frame).
 - **`cs-plan-builder` (account-management-skills)** — Deep work on Section 5 (Activation).

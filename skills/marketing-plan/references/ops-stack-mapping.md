@@ -86,7 +86,7 @@ The plan's Section 11 makes this thesis explicit by:
 
 | Skill | What it does | Primary use |
 |---|---|---|
-| `06-positioning` (gtm-strategy-skills) | Set up the `.agents/product-marketing.md` context file (positioning, ICP, voice) | Foundational — run first; every section of the plan references this |
+| `gtm-positioning` (gtm-strategy-skills) | Set up the `.agents/product-marketing.md` context file (positioning, ICP, voice) | Foundational — run first; every section of the plan references this |
 | `customer-research` | Conduct customer interviews + surveys | Section 2 + Section 3 (Current state) |
 | `copywriting` | Apply behavioral science | Cross-cuts copy, CRO, paywalls |
 | the idea list in `references/idea-cross-reference.md` | The 139-idea library | Section 12 of plan (Idea bank) |

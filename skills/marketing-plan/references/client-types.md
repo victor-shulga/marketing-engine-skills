@@ -294,7 +294,7 @@ The 13-section plan structure stays consistent across client types. What changes
 
 ### Skills emphasis
 - Light traditional marketing
-- Heavy `06-positioning` (gtm-strategy-skills), `slide-deck-builder` (sales-engine-skills), `pricing`
+- Heavy `gtm-positioning` (gtm-strategy-skills), `slide-deck-builder` (sales-engine-skills), `pricing`
 - `cold-email-playbook` (outbound-engine-skills) to specific researchers / practitioners
 - PR + investor marketing
 

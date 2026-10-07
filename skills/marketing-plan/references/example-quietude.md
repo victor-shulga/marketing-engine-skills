@@ -632,7 +632,7 @@ The fCMO's job is to:
 | **Retention** | `nurture-architect`, `client-health-check` (account-management-skills) | `copywriting`, `cro` |
 | **Referral** | `referrals`, `content-run` (content-engine-skills) | `copywriting`, `page-builder` (standalone repo), `nurture-architect` |
 | **Revenue** | `pricing`, `cro`, `slide-deck-builder` (sales-engine-skills), `revops` | `cro`, `copywriting` |
-| **Cross-cutting** (brand, intelligence) | `06-positioning` (gtm-strategy-skills), `customer-research`, `copywriting` | the idea list in `references/idea-cross-reference.md`, `diagram-maker` |
+| **Cross-cutting** (brand, intelligence) | `gtm-positioning` (gtm-strategy-skills), `customer-research`, `copywriting` | the idea list in `references/idea-cross-reference.md`, `diagram-maker` |
 
 ### MCPs / APIs mapped to stages
 
