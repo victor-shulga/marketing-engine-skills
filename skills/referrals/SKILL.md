@@ -1,8 +1,8 @@
 ---
 name: referrals
-description: When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referrals,' 'customers referring customers,' or 'affiliate payout.' Use this whenever someone wants existing users or partners to bring in new customers. For launch-specific virality, see launch.
+description: When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy, or to get warm introductions through a client's or referrer's LinkedIn network. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referrals,' 'customers referring customers,' 'affiliate payout,' 'warm intro,' 'ask for an introduction,' 'mine our clients' connections,' 'who in their network fits our ICP,' or says clients 'already recommend us' with no system behind it. Use this whenever someone wants existing users, clients or partners to bring in new customers. For launch-specific virality, see launch.
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
 
 # Referral & Affiliate Programs
@@ -216,6 +216,21 @@ They get [their reward] too.
 
 ---
 
+## Warm Intro Mining (B2B Services)
+
+For service firms, word of mouth is often the main channel, yet it runs by accident: "our clients already recommend us." Turn it into a process by working through the networks of people who already trust the firm:
+
+1. **Pick connectors**: happy clients right after a result, past referrers, advisors, business-club organizers. Skip anyone with an open complaint.
+2. **Get the network legitimately**: the connector shares their own LinkedIn `Connections.csv` export, or you use LinkedIn's "Connections of" filter on your own 1st-degree connections. Never scrape other people's networks.
+3. **Score against the ICP** with `scripts/score_connections.py` (standard library only; ICP rules in a JSON file, start from `references/icp-example.json`). Then read every row, check the top 10 companies, and write one "why now" line per person.
+4. **Bring a shortlist of 3–5 names**, each with its reason. The connector marks who they know well and who they are comfortable introducing.
+5. **Double opt-in intro** with a forwardable blurb written for the target. Reply the same day and log the deal with source = referral + connector name.
+6. **Close the loop**: tell the connector the outcome, thank them, measure intros per shortlist and intro → call → deal monthly.
+
+**Full flow, templates and metrics**: See [references/warm-intro-mining.md](references/warm-intro-mining.md)
+
+---
+
 ## Affiliate Programs
 
 **For detailed affiliate program design, commission structures, recruitment, and tools**: See [references/affiliate-programs.md](references/affiliate-programs.md)
@@ -224,7 +239,7 @@ They get [their reward] too.
 
 ## Task-Specific Questions
 
-1. What type of program (referral, affiliate, or both)?
+1. What type of program (referral, affiliate, warm intros through client networks, or a mix)?
 2. What's your customer LTV and current CAC?
 3. Existing program or starting from scratch?
 4. What tools/platforms are you considering?

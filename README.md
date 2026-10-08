@@ -23,7 +23,7 @@ Restart your Claude Code session after install — skills load at session start.
 
 **Clients and market**
 
-- `referrals` — a referral or partner program: who to ask, what to ask for, how to track intros
+- `referrals` — a referral or partner program: who to ask, what to ask for, how to track intros; warm intros mined from a client's LinkedIn network (bundled scoring script)
 - `customer-research` — client interviews, reviews and the words clients use for their problem
 - `competitor-profiling` — a profile per competitor: offer, prices, proof, weak spots
 

@@ -84,6 +84,22 @@
         "Provides specific referral email copy or template"
       ],
       "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "We're a 10-person web development studio. Our CEO says clients already recommend us, and most new projects come from a business club and from people our clients know. But nothing is tracked. We have about 15 happy clients. How do we get more introductions on purpose, maybe through our clients' LinkedIn networks?",
+      "expected_output": "Should recognise passive word of mouth with no ask, tracking or loop, and route to the warm intro mining flow. Should pick connectors (happy clients right after a result, past referrers, the business club). Should get the network legitimately: the connector shares their own Connections.csv export, or the 'Connections of' filter on 1st-degree connections. Should explicitly rule out scraping. Should score connections against a written ICP with scripts/score_connections.py and an icp.json, then review rows manually and write a 'why now' line per person. Should bring a shortlist of 3-5 names, use double opt-in with a forwardable blurb, log source = referral with the connector's name, report outcomes back, and track intros per shortlist and intro to call to deal monthly. Should not lead with a cash reward.",
+      "assertions": [
+        "Diagnoses passive word of mouth vs. a referral process",
+        "Uses the connector's own LinkedIn export or the 'Connections of' filter, and rules out scraping",
+        "Scores connections against a written ICP with the bundled script",
+        "Requires manual review and a 'why now' line per shortlisted person",
+        "Shortlist of 3-5 names per connector, not 'do you know anyone'",
+        "Double opt-in intro with a forwardable blurb",
+        "CRM attribution: source = referral + connector",
+        "Closes the loop with the connector and defines monthly metrics"
+      ],
+      "files": []
     }
   ]
 }

@@ -1,0 +1,70 @@
+{
+  "_comment": "Example ICP for a web-development studio that rescues and speeds up online stores for owner-led e-commerce businesses. Patterns are case-insensitive regular expressions. Within each block only the best-matching rule counts. Replace every rule with the user's own ICP before running.",
+  "titles": [
+    {
+      "pattern": "\\b(owner|founder|co-?founder|ceo|managing director)\\b|власник|засновник|співзасновник|генеральний директор|^директор$",
+      "points": 14,
+      "label": "owner / CEO"
+    },
+    {
+      "pattern": "\\b(coo|cmo|chief marketing|chief operating|head of e-?commerce|e-?commerce director)\\b",
+      "points": 10,
+      "label": "commercial C-level"
+    },
+    {
+      "pattern": "\\b(head of (marketing|digital|sales)|marketing director|digital director)\\b",
+      "points": 8,
+      "label": "head of marketing / digital"
+    },
+    {
+      "pattern": "\\b(cto|head of it|it director)\\b",
+      "points": 6,
+      "label": "technical lead"
+    }
+  ],
+  "companies": [
+    {
+      "pattern": "\\b(shop|store|marketplace|e-?commerce|retail)\\b|магазин|beauty|fashion|furniture|cosmetic",
+      "points": 10,
+      "label": "online store / retail"
+    },
+    {
+      "pattern": "distribut|wholesale|опт|trade|import",
+      "points": 6,
+      "label": "distribution / wholesale"
+    }
+  ],
+  "markets": [
+    {
+      "pattern": "[а-яіїєґ]",
+      "points": 6,
+      "label": "Cyrillic name or company"
+    }
+  ],
+  "title_exclude": [
+    "\\bstudent\\b",
+    "\\bintern\\b",
+    "looking for",
+    "open to work",
+    "recruit",
+    "\\bhr\\b",
+    "персонал|кадр|рекрут",
+    "marketing (expert|strategist|consultant)"
+  ],
+  "company_exclude": [
+    "self-?employed",
+    "freelance",
+    "agency",
+    "studio",
+    "outsourc",
+    "university",
+    "marketing",
+    "предприниматель|підприємець|фоп"
+  ],
+  "recency_points": {
+    "2026": 2,
+    "2025": 1
+  },
+  "multi_contact_points": 2,
+  "min_score": 20
+}
