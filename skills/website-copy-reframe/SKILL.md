@@ -122,6 +122,10 @@ next mode and the blocks to fix first.
 
 ## Step 4B: Mode homepage
 
+For the full two-track rewrite (clarity plus trust: named cases next to every promise, real logos
+only, no placeholders, a pre-ship checklist) use the standalone `homepage-rewrite` skill. This mode
+is the short version: blocks from the canvas.
+
 Turn the canvas into blocks (`reference/copy-blocks.md`):
 - **Hero**: top-row message, key capabilities, the service category, and a trust line.
 - **Problem section**: current way, limitations and problems (empathy plus qualification).
