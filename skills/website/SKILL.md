@@ -39,7 +39,9 @@ Optional around the flow:
    - baseline exists = `website-audit/<domain>/website-audit-<domain>-<date>.md`;
    - homepage rewritten = `<company>-homepage-rewrite-<date>.md` with Proof bank and Canvas
      sections;
-   - Site Blueprint = a page inventory file the user points to (ask if unsure).
+   - Site Blueprint = a page inventory file the user points to (ask if unsure);
+   - pages shipped = `page-builder` output files newer than the baseline audit whose URLs the
+     user confirms are live (ask for the URLs).
 
    Then:
    - no baseline audit → step 0, `website-audit` on the live site with `--limit 10`;
